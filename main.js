@@ -1,4 +1,4 @@
-const {launch: puppeteerLaunch} = require('puppeteer-core')
+const {launch: puppeteerLaunch} = require('puppeteer-extra-plugin-stealth')
 const {launch, getStream} = require('puppeteer-stream')
 const fs = require('fs')
 const child_process = require('child_process')
